@@ -9,7 +9,7 @@ const Herosection = () => {
   return (
     <div
       style={{
-        backgroundImage: "url(homeimg/heroBg.png)",
+        backgroundImage: "url(homeimg/heroBg.webp)",
         backgroundSize: "150% 100% ",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -24,7 +24,7 @@ const Herosection = () => {
 
 
 
-        <Navbar  img={"logo/logo.png"} />
+        <Navbar img={"logo/logo.png"} />
 
 
 
