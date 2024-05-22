@@ -33,7 +33,7 @@ const Navbar = ({ img }) => {
         <nav className=' flex items-center justify-between relative'>
             <div className='flex items-center gap-12'>
 
-             <Link to={"/"}>   <img src={img} className='w-24' alt="" /> </Link>
+                <Link to={"/"}>   <img src={img} className='w-24' alt="" /> </Link>
 
                 <ul className='text-white gap-9 hidden xl:flex'>
 
@@ -101,8 +101,8 @@ const Navbar = ({ img }) => {
 
                         <ul className='text-white gap-9  text-2xl space-y-4 mt-9'>
 
-                        <Link to={"/"}> <li>Home</li></Link>
-                    <Link to={"/about-us"}>   <li>About Us</li></Link>
+                            <Link to={"/"}> <li>Home</li></Link>
+                            <Link to={"/about-us"}>   <li className='mt-4'>About Us</li></Link>
                             <li>Testimonal</li>
                             <li>Blogs</li>
                             <li>Contact</li>
