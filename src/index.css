@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input{
+
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.floatImg{
+
+	animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float {
+	0% {
+		filter: drop-shadow(20px 30px 4px #3e3e4055);
+		transform: translatey(0px);
+	}
+	50% {
+    	filter: drop-shadow(20px 30px 4px #3e3e4055);
+		transform: translatey(-20px);
+	}
+	100% {
+        filter: drop-shadow(20px 30px 4px #3e3e4055);
+		transform: translatey(0px);
+	}
+}
